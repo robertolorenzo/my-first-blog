@@ -17,5 +17,5 @@ class Entradas(models.Model):
 		self.fecha_publicacion = timezone.now()
 		self.save
 
-	def __STR__(self):
+	def __str__(self):
 		return self.titulo
